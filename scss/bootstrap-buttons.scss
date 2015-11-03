@@ -1,0 +1,140 @@
+// Bootstrap Buttons only
+//
+// Includes relevant variables and mixins for the regular button classes,
+//However defaults can be overriden to give custom buttons classes  
+
+//Required variables
+$gray-dark:                 #373a3c !default;
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:             #0275d8 !default;
+$brand-success:             #5cb85c !default;
+$brand-info:                #5bc0de !default;
+$brand-warning:             #f0ad4e !default;
+$brand-danger:              #d9534f !default;
+
+$enable-hover-media-query:              true;
+$enable-rounded:                        true;
+$enable-shadows:                        true;
+$caret-width:            .3em !default;
+$caret-width-lg:         $caret-width !default;
+$border-radius:          .25rem !default;
+$border-radius-lg:       .3rem !default;
+$border-radius-sm:       .2rem !default;
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:              $border-radius !default;
+$btn-border-radius-lg:           $border-radius-lg !default;
+$btn-border-radius-sm:           $border-radius-sm !default;
+$btn-font-weight:                normal !default;
+$border-width:               1px !default;
+$btn-padding-x:                  1rem !default;
+$btn-padding-y:                  .375rem !default;
+$font-size-base:             1rem !default;
+$line-height:                1.5 !default;
+$enable-transitions:        false !default;
+$cursor-disabled:                not-allowed !default;
+
+
+
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-padding-x:                  1rem !default;
+$btn-padding-y:                  .375rem !default;
+$btn-font-weight:                normal !default;
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $brand-primary !default;
+$btn-primary-border:             $btn-primary-bg !default;
+
+$btn-secondary-color:            $gray-dark !default;
+$btn-secondary-bg:               #fff !default;
+$btn-secondary-border:           #ccc !default;
+
+$btn-info-color:                 #fff !default;
+$btn-info-bg:                    $brand-info !default;
+$btn-info-border:                $btn-info-bg !default;
+
+$btn-success-color:              #fff !default;
+$btn-success-bg:                 $brand-success !default;
+$btn-success-border:             $btn-success-bg !default;
+
+$btn-warning-color:              #fff !default;
+$btn-warning-bg:                 $brand-warning !default;
+$btn-warning-border:             $btn-warning-bg !default;
+
+$btn-danger-color:               #fff !default;
+$btn-danger-bg:                  $brand-danger !default;
+$btn-danger-border:              $btn-danger-bg !default;
+
+$btn-link-disabled-color:        $gray-light !default;
+
+$btn-padding-x-sm:               .75rem !default;
+$btn-padding-y-sm:               .25rem !default;
+
+$btn-padding-x-lg:               1.25rem !default;
+$btn-padding-y-lg:               .75rem !default;
+
+$link-color:                 $brand-primary !default;
+$link-decoration:            none !default;
+$link-hover-color:           darken($link-color, 15%) !default;
+$link-hover-decoration:      underline !default;
+
+
+
+
+//main scss map that holds all button classes
+$buttons-properties: (
+    // Primary class
+    btn-primary :(
+        color : #fff,
+        bg : $brand-primary,
+        border : $brand-primary
+    ),
+    // Secondary class
+    btn-secondary :(
+        color : $gray-dark,
+        bg : #fff ,
+        border : #ccc
+    ),
+    // Info class
+    btn-info :(
+        color : #fff,
+        bg : $brand-info,
+        border : $brand-info
+    ),
+    // Success class
+    btn-success :(
+        color : #fff,
+        bg : $brand-success,
+        border : $brand-success
+    ),
+    // Warning class
+    btn-warning :(
+        color : #fff,
+        bg : $brand-warning,
+        border : $brand-warning
+    ),
+    // Danger class
+    btn-danger:(
+        color : #fff,
+        bg : $brand-danger,
+        border : $brand-danger
+    )
+
+) !default;
+
+//mixins
+@import "mixins/hover";
+@import "mixins/clearfix";
+@import "mixins/border-radius";
+@import "mixins/toggel";
+@import "mixins/buttons-mixin";
+@import "mixins/tab-focus";
+@import "buttons";
+@import "button-group";
