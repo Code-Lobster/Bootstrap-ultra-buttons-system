@@ -94,6 +94,10 @@ fieldset[disabled] a.btn {
         
     }
 }
+//overriding style
+.btn-secondary-outline {
+  @include button-outline-variant($btn-secondary-border);
+}
 
 //
 // Link buttons

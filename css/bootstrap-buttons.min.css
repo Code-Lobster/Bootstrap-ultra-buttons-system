@@ -347,6 +347,26 @@ a.btn.disabled, fieldset[disabled] a.btn {
   .btn-danger-outline.disabled:hover, .btn-danger-outline:disabled:hover {
     border-color: #eba5a3; } }
 
+.btn-secondary-outline {
+  color: #ccc;
+  background-image: none;
+  background-color: transparent;
+  border-color: #ccc; }
+.btn-secondary-outline:focus, .btn-secondary-outline.focus, .btn-secondary-outline:active, .btn-secondary-outline.active, .open > .btn-secondary-outline.dropdown-toggle {
+  color: #fff;
+  background-color: #ccc;
+  border-color: #ccc; }
+@media (hover: hover) {
+  .btn-secondary-outline:hover {
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc; } }
+.btn-secondary-outline.disabled:focus, .btn-secondary-outline.disabled.focus, .btn-secondary-outline:disabled:focus, .btn-secondary-outline:disabled.focus {
+  border-color: white; }
+@media (hover: hover) {
+  .btn-secondary-outline.disabled:hover, .btn-secondary-outline:disabled:hover {
+    border-color: white; } }
+
 .btn-link {
   font-weight: normal;
   color: #0275d8;
