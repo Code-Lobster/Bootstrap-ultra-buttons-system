@@ -37,6 +37,23 @@ $line-height:                1.5 !default;
 $enable-transitions:        false !default;
 $cursor-disabled:                not-allowed !default;
 
+$link-color:                 $brand-primary !default;
+$link-decoration:            none !default;
+$link-hover-color:           darken($link-color, 15%) !default;
+$link-hover-decoration:      underline !default;
+
+$font-size-root:             16px !default;
+
+$font-size-base:             1rem !default;
+$font-size-lg:               1.25rem !default;
+$font-size-sm:               .85rem !default;
+$font-size-xs:               .75rem !default;
+
+$line-height-lg:         (4 / 3) !default;
+$line-height-sm:         1.5 !default;
+
+
+
 
 
 
@@ -80,10 +97,7 @@ $btn-padding-y-sm:               .25rem !default;
 $btn-padding-x-lg:               1.25rem !default;
 $btn-padding-y-lg:               .75rem !default;
 
-$link-color:                 $brand-primary !default;
-$link-decoration:            none !default;
-$link-hover-color:           darken($link-color, 15%) !default;
-$link-hover-decoration:      underline !default;
+
 
 
 
@@ -91,37 +105,37 @@ $link-hover-decoration:      underline !default;
 //main scss map that holds all button classes
 $buttons-properties: (
     // Primary class
-    btn-primary :(
+    primary :(
         color : #fff,
         bg : $brand-primary,
         border : $brand-primary
     ),
     // Secondary class
-    btn-secondary :(
+    secondary :(
         color : $gray-dark,
         bg : #fff ,
         border : #ccc
     ),
     // Info class
-    btn-info :(
+    info :(
         color : #fff,
         bg : $brand-info,
         border : $brand-info
     ),
     // Success class
-    btn-success :(
+    success :(
         color : #fff,
         bg : $brand-success,
         border : $brand-success
     ),
     // Warning class
-    btn-warning :(
+    warning :(
         color : #fff,
         bg : $brand-warning,
         border : $brand-warning
     ),
     // Danger class
-    btn-danger:(
+    danger:(
         color : #fff,
         bg : $brand-danger,
         border : $brand-danger

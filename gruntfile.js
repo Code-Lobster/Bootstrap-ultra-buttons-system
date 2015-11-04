@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                     style: 'compressed ',
                 },
 				files: {
-					'css/bootstrap-buttons.min.scss' : 'scss/bootstrap-buttons.scss'
+					'css/bootstrap-buttons.min.css' : 'scss/bootstrap-buttons.scss'
 				}
 			},
             dev: {
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                     style: 'expanded',
                 },
 				files: {
-					'css/bootstrap-buttons.scss' : 'scss/bootstrap-buttons.scss'
+					'css/bootstrap-buttons.css' : 'scss/bootstrap-buttons.scss'
 				}
 			}
 		},
