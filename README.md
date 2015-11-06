@@ -10,7 +10,7 @@ Bootstrap ultra buttons systems does this for you, sass-script(maps) can solve t
 Include one of the precompiled css files in css/ folder, to get a custom build follow below instructions:
 
 Clone or download this respository, and run
-    npm install
+    `npm install`
 Edit scss map and run grunt:
 ```
   //main scss map that holds all button classes
