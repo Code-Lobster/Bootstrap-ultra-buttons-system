@@ -12,6 +12,8 @@ Include one of the precompiled css files in css/ folder, to get a custom build f
 Clone or download this respository, and run
     `npm install`
 Edit scss map and run grunt:
+
+Below you can see the main properties map, add/delete catagories, edit properties etc.You now have full control :)
 ```
   //main scss map that holds all button classes
   $buttons-properties: (
