@@ -72,7 +72,7 @@ you could also make custom classes like:
         bg : darkred ,
         border : white
     ),
-    // Info class
+    // Tertiary class
     tertiary :(
         color : #fff,
         bg : #ab670f,
