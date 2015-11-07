@@ -56,6 +56,31 @@ Below you can see the main properties map, add/delete catagories, edit propertie
 ```
 That's it, your compiled css will be available in css/ folder after you run grunt.
 
+you could also make custom classes like:
+```
+  //main scss map that holds all button classes
+  $buttons-properties: (
+    // Primary class
+    primary :(
+        color : blue,
+        bg : darkblue,
+        border : black
+    ),
+    // Secondary class
+    secondary :(
+        color : red,
+        bg : darkred ,
+        border : white
+    ),
+    // Info class
+    tertiary :(
+        color : #fff,
+        bg : #ab670f,
+        border : #51bd6a;
+    )
+  ) !default;
+```
+by writing the abovecode you will have `.btn-primary .btn-secondary .btn-tertiary` classes available for use. 
 ##Included
 * Standard Bootstrap button group classes: .btn-group, .btn-toolbar, etc.
 * Standard Bootstrap button styling classes: .btn-lg, .btn-primary, etc.
