@@ -7,10 +7,9 @@ Here is the deal, bootstrap provides 6 default button classes: `Primary, Seconda
 Bootstrap ultra buttons systems does this for you, sass-script(maps) can solve this very gracefully. Just edit the main sass map(sort-of variable), compile your sass and you are Done! 
 
 ##Instruction
-Include one of the precompiled css files in css/ folder, to get a custom build follow below instructions:
 
 Clone or download this respository, and run
-    `npm install`
+```npm install```
 Edit scss map and run grunt:
 
 Below you can see the main properties map, add/delete catagories, edit properties etc.You now have full control :)
@@ -55,4 +54,15 @@ Below you can see the main properties map, add/delete catagories, edit propertie
     )
   ) !default;
 ```
-That's it, your compiled css will be available in css/ folder.
+That's it, your compiled css will be available in css/ folder after you run grunt.
+
+##Included
+* Standard Bootstrap button group classes: .btn-group, .btn-toolbar, etc.
+* Standard Bootstrap button styling classes: .btn-lg, .btn-primary, etc.
+
+##What's not included:
+Pretty much everything else. It's really up to you. No styles, no javascript - not even a CSS reset.
+
+##Notes
+Thanks to Bootstrap team, it's all their work. While making this respository i had to read every line of code, and it was a good learning experiance. I would suggest everyone go through it, it's totally worth it!
+
