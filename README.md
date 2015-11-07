@@ -63,6 +63,6 @@ That's it, your compiled css will be available in css/ folder after you run grun
 ##What's not included:
 Pretty much everything else. It's really up to you. No styles, no javascript - not even a CSS reset.
 
-##Notes
+##Giving Credit
 Thanks to Bootstrap team, it's all their work, i wrote a few extra sass loop. While making this respository i had to read every line of code, and it was a good learning experience. I would suggest everyone go through it, it's totally worth it!
 
