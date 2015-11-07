@@ -80,7 +80,7 @@ you could also make custom classes like:
     )
   ) !default;
 ```
-by writing the abovecode you will have `.btn-primary .btn-secondary .btn-tertiary` classes available for use. 
+by writing the above code you will have `.btn-primary .btn-secondary .btn-tertiary` classes available for use. 
 ##Included
 * Standard Bootstrap button group classes: .btn-group, .btn-toolbar, etc.
 * Standard Bootstrap button styling classes: .btn-lg, .btn-primary, etc.
